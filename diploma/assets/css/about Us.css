@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Верхная-шапка */
+
+.top_cap{
+    background-color: #eeeeee;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.links_reg{
+    width: 200px;
+    display: flex;
+    /* margin-left: 1770px; */
+    margin-right: 1px;
+    float:right;
+}
+
+hr{
+    margin: 0;
+    background-color: black;
+    width: 1px;
+    height: 19px;
+}
+
+.reg{
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.log{
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* Верхная-шапка */
+
+
+.flex-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 70px;
+}
+.flex-header .logotip, form, .call_times{
+    margin: 0 120px;
+}
+
+.flex-header .icon{
+    margin: 0 20px;
+}
+
+.phon{
+    margin-top: 5
+}
+
+.search{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.button_search{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+ .icon-linck{
+    width: 65px;
+    height: 65px;
+} 
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.nav_bar{
+    height: 53px;
+    background-color: #FF792E;
+    align-items: center;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+.hover-effect {
+    font-size: 40px;
+    margin: 150px;
+    text-decoration: none;
+    color: #ffffff; /* Цвет текста */
+  }
+
+
+
+  .conteiner_info{
+    padding: 10px;
+    display: flex;
+  }
+
+  .welcome{
+    font-size: 20px;
+
+  }

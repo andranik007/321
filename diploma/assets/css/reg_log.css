@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.orange-bg {
+    background-color: #FFA500;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
